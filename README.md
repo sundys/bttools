@@ -2,11 +2,11 @@
 
 7.7.0安装方法:
 
-纯原版安装：wget -O install.sh https://github.com/sundys/bttools/raw/master/install_6.0.sh && bash install.sh
+纯原版安装：wget -O install.sh https://raw.githubusercontent.com/sundys/bttools/master/install_6.0.sh && bash install.sh
 
 如已经安装宝塔最新版降级脚本如下：
 
-wget -O install.sh http://blog.fqidc.cn/bt/install_6.0.sh && bash install.sh
+wget http://download.bt.cn/install/update/LinuxPanel-7.7.0.zip
 
 unzip LinuxPanel-*
 
@@ -16,7 +16,7 @@ bash update.sh
 
 cd .. && rm -f LinuxPanel-*.zip && rm -rf panel
 
-备用降级下载地址：wget https://github.com/sundys/bttools/raw/master/LinuxPanel7.7.0/LinuxPanel-7.7.0.zip
+备用降级下载地址：wget https://raw.githubusercontent.com/sundys/bttools/master/LinuxPanel7.7.0/LinuxPanel-7.7.0.zip
 
 执行以下脚本，解决强制登录宝塔账号提醒：
 
